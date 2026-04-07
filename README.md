@@ -18,8 +18,7 @@ Cada projeto está em sua própria pasta para facilitar organização e evoluç�
 ## 🖥️ Como desenvolvi
 
 O projeto foi desenvolvido no **Visual Studio Code** localmente.  
-Para compatibilidade e testes rápidos, também adaptei o código para rodar no **GDB ONLINE**.  
-Com isso, qualquer pessoa pode executar o jogo sem precisar instalar nada.
+Para compatibilidade e testes rápidos, também adaptei o código para rodar no **GDB ONLINE**. Com isso, qualquer pessoa pode executar o jogo sem precisar instalar nada.
 
 ---
 
