@@ -39,7 +39,7 @@ int main() {
         if(scanf("%d", &nivel) != 1) {
             printf("\033[1;31mDigite um número válido. \033[0m\n");
             while (getchar() != '\n'); //Limpa o buffer
-            continue; //volta para o inicio do loop
+            continue; 
         }
         switch (nivel) {
             case 1:
@@ -69,19 +69,19 @@ int main() {
             while (getchar() != '\n'); // Limpa o buffer
             i--; // Não conta como tentativa
             continue;
-        } // <-- chave adicionada aqui
+        } 
 
         //Condições
         if(chute < 0){
             printf("\033[1;31mVocê não pode chutar números negativos.\033[0m\n");
-            i--; //não conta como tentativa
-            continue; //Volta para o início do loop
+            i--; 
+            continue; 
         }
         tentativas++; 
 
         if (chute == num_secreto) {
             printf("\033[1;32mParabéns! Você acertou em %d tentativas.\033[0m\n", tentativas);
-            break; // Sai do loop
+            break; 
         } else if (chute > num_secreto) {
             printf("\033[1;34mTente um número menor.\033[0m\n");
         } else {
